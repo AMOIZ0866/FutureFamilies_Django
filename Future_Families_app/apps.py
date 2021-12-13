@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class FuturefamiliesAppConfig(AppConfig):
+class FutureFamiliesAppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'FutureFamilies_app'
+    name = 'Future_Families_app'

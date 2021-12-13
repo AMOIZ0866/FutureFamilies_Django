@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-5!ab=r743vm+r-(s&&!bazmb8@5)im8_$#9_8il9je5872_&4p
 # Application definition
 
 INSTALLED_APPS = [
-    'FutureFamilies_app',
+    'Future_Families_app',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+# AUTH_USER_MODEL = 'Future_Families_app.User'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
